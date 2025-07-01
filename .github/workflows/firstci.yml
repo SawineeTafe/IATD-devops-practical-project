@@ -7,7 +7,7 @@ on:
 
 jobs:
   run-tests:
-    name: Run Node.js Tests
+    name: Build and run test Node.js Tests
     runs-on: ubuntu-latest
 
     steps:
