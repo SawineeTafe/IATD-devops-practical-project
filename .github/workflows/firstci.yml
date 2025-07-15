@@ -41,6 +41,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: |
+          tags: 
             ${{ secrets.DOCKERHUB_USERNAME }}/jest-test-deploy:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/jest-test-deploy:v1-2025-07-15
