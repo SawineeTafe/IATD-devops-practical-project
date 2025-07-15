@@ -1,5 +1,5 @@
 export default {
   testEnvironment: 'node',
-  transform: {}, // ไม่ใช้ Babel
+  transform: {},
   moduleFileExtensions: ['js'],
 };
