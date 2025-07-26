@@ -55,3 +55,7 @@ test('isValidDateString: month > 12 returns false', () => {
 test('isValidDateString: day <= 0 returns false', () => {
   expect(isValidDateString('00/05/2024')).toBe(false);
 });
+
+test('failing test', () => {
+  expect(1 + 1).toBe(3); // ❌ Intentionally wrong
+});

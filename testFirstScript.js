@@ -1,6 +1,6 @@
 // Import readline-sync
 import readlineSync from 'readline-sync';
-
+const TEMP_ERROR = 'This will trigger ESLint'; // ❌ unused variable
 // Ask user for their name
 let myName = readlineSync.question('What is your name? ');
 
